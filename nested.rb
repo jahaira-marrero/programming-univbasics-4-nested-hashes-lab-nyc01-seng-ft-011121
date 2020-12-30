@@ -118,8 +118,7 @@ def changing_alan
     }
 }
 alans_new_info = "GUI"
-if programmer_hash[:programmers][:alan_kay][:known_as]
-  programmer_hash[:programmers][:alan_kay][:known_for] = alans_new_info
+programmer_hash[:programmers][:alan_kay][:known_for] = alans_new_info
 end
 end
 
